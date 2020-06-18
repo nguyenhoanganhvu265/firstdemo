@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            HOME
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="250">
+        <header class="container-fluid bg-light text-center">
+            <p class="display-4 p-2">Welcome to my first <span>Bootstrap</span> webpage</p>
+        </header>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+            <a class="navbar-brand" href="index.html">HOME</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#html--infor">HTML</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#css--infor">CSS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#js--infor">JavaScript</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="demo" class="container-fluid carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="#html--infor">
+                        <img src="E:\Demo Web\slide1.jpg">
+                    </a> 
+                </div>
+                <div class="carousel-item">
+                    <a href="#css--infor">
+                        <img src="E:\Demo Web\slide2.jpg">
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#js--infor">
+                        <img src="E:\Demo Web\silde3.jpg">
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <section class="container jumbotron mt-5" id="html--infor">
+            <span class="fa fa-html5"></span>
+            <hr>
+            <p class="jumbotron-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, fuga. Libero tempore perferendis, ipsam laborum, possimus exercitationem dolore molestias totam quaerat ad odio provident officiis quidem itaque iure nisi impedit!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla pariatur doloribus corporis totam non laboriosam explicabo fuga iusto minus laborum? Illum nihil repellat ipsam neque ipsum! Veritatis facilis rerum a.
+            </p>
+            <hr>
+            <button class="btn btn-outline-danger" id="html--btn">More Information</button>            
+        </section>
+        <section class="container jumbotron mt-5" id="css--infor">
+            <span class="fa fa-css3"></span>
+            <hr>
+            <p class="jumbotron-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, fuga. Libero tempore perferendis, ipsam laborum, possimus exercitationem dolore molestias totam quaerat ad odio provident officiis quidem itaque iure nisi impedit!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam maxime quos cumque. Minima facere eaque accusantium nesciunt ex totam, fuga suscipit omnis magnam quis eligendi quam? Harum amet autem deleniti!
+            </p>
+            <hr>
+            <button class="btn btn-primary">More Information</button>            
+        </section>
+        <section class="container jumbotron mt-5" id="js--infor">
+            <span id="js-icon">JS</span>
+            <hr>
+            <p class="jumbotron-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, fuga. Libero tempore perferendis, ipsam laborum, possimus exercitationem dolore molestias totam quaerat ad odio provident officiis quidem itaque iure nisi impedit!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus mollitia est perspiciatis, molestias voluptas minus adipisci eveniet velit quo inventore ut veritatis, iste, pariatur saepe doloribus nihil explicabo accusantium tempora!
+            </p>
+            <hr>
+            <button class="btn btn-warning">More Information</button>            
+        </section>
+        <footer class="container-fluid bg-dark text-light">
+            <h3 class="p-3 display-4">Web tutorial</h3>
+            <hr>
+            <div class=" text-secondary">
+                <p class="col-sm-12 col-md-4 col-lg-4">
+                    <span>Contact<br></span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium voluptatibus exercitationem molestiae expedita maiores? Tempora dolore temporibus porro deleniti, suscipit impedit doloribus nam omnis quasi adipisci hic, non eligendi repellat?
+                </p>
+                <p class="col-sm-12 col-md-4 col-lg-4">
+                    <span>Address<br></span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. In nam inventore autem laboriosam, accusantium illum quisquam voluptas quidem officiis tenetur sit excepturi aperiam accusamus ipsum nostrum id. Voluptatibus, iure voluptatem?
+                </p>
+                <p class="col-sm-12 col-md-4 col-lg-4">
+                    <span>Report<br></span>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus impedit voluptate ipsum ex fugit recusandae enim laudantium quam, ut rerum. Quaerat voluptate qui dolorum ex maiores, quod tempore adipisci ducimus!
+                </p>
+            </div>
+            <hr>
+            <p class="p-2">Produce by Nguyen Hoang Anh Vu</p>
+        </footer>
+    </body>
+</html>
